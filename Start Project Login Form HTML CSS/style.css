@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+background-image: url(./img.jpg);
+background-size: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+.container{
+width: 420px;
+color: #fff;
+background:transparent;
+border: 2px solid rgba(255,255, 255, .2);
+backdrop-filter: blur(20px);
+box-shadow: 0 0 10px rgba(255, 255, 255, .2);
+padding: 30px 40px;
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding: 20px;
+  font-size: 36px;
+}
+
+.input-box{
+  width: 100%;
+  height: 50px;
+  /* background-color: yellow; */
+  margin: 30px 0;
+  position: relative;
+}
+
+.input-box input{
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, .2);
+  border-radius: 40px;
+  padding: 20px 45px 20px 20px;
+  color: #fff;
+}
+
+.input-box input::placeholder{
+  color: #fff;
+}
+
+.icon{
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.checkbox{
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkbox a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.checkbox a:hover{
+text-decoration: underline;
+}
+
+button{
+  width: 100%;
+  height: 50px;
+  border-radius: 40px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+.register-link{
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+
+.register-link a{
+  color: #fff;
+}
